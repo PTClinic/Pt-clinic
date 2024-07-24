@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Physical Therapy Clinic</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Our Physical Therapy Clinic</h1>
+            <nav>
+                <ul>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#staff">Staff</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="services">
+            <div class="container">
+                <h2>Our Services</h2>
+                <div id="service-list">
+                    <!-- Service details will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="staff">
+            <div class="container">
+                <h2>Meet Our Staff</h2>
+                <div id="staff-list">
+                    <!-- Staff details will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials">
+            <div class="container">
+                <h2>Patient Testimonials</h2>
+                <div id="testimonial-list">
+                    <!-- Testimonials will be dynamically loaded here -->
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Us</h2>
+                <form id="contactForm">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Physical Therapy Clinic. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+	<section id="faqs">
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+            <h3>What is physical therapy?</h3>
+            <p>Physical therapy is a treatment that helps people recover from injuries and improve their movement.</p>
+        </div>
+    </div>
+</section>
+</body>
+</html>
